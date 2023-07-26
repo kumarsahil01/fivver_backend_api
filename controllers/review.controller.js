@@ -1,5 +1,5 @@
 import createError from "http-errors";
-import Review from "../models/review.model.js";
+import Review from "../Models/review.model.js";
 import Gig from "../Models/gig.model.js";
 // create review
 export const createReview = async (req, res, next) => {

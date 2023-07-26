@@ -1,5 +1,5 @@
 import createError from "../utils/CreateErrors.js";
-import Conversation from "../models/conversation.model.js";
+import Conversation from "../Models/conversation.model.js";
 
 export const createConversation = async (req, res, next) => {
   if (!req.body.to) {

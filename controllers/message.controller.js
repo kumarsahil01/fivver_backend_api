@@ -1,5 +1,5 @@
 import createError from "../utils/CreateErrors.js";
-import Message from "../models/message.model.js";
+import Message from "../Models/message.model.js";
 import Conversation from "../models/conversation.model.js";
 
 export const createMessage = async (req, res, next) => {
